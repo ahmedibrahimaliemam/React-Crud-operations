@@ -1,0 +1,21 @@
+.image{
+    background-color: #e9ecefc2;
+    text-align: center;
+    padding: 10px 5px;
+    height:100vh;
+}
+.image img{
+   transition: 0.5s;
+   -webkit-transition: 0.5s;
+   -moz-transition: 0.5s;
+   -ms-transition: 0.5s;
+   -o-transition: 0.5s;
+   height: 100%;
+}
+.image img:hover{
+    transform:scale(1.03) ;
+    -webkit-transform:scale(1.03) ;
+    -moz-transform:scale(1.03) ;
+    -ms-transform:scale(1.03) ;
+    -o-transform:scale(1.03) ;
+}
